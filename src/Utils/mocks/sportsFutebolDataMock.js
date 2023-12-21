@@ -173,7 +173,7 @@ export const sportsFutebolDataMock = [
 				location: "Estádio Arena Condá, Chapecó",
 				championship: "Campeonato Brasileiro Série B",
 				probabilities: {
-					team1: "55%"/,
+					team1: "55%",
 					team2: "35%",
 					tie: "10%",
 				},
