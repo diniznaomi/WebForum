@@ -1,0 +1,53 @@
+.linkItem{
+    text-decoration: none;
+}
+.cardContainer{
+    margin: 0px;
+    color: #eeecec;
+}
+.cardContentStyle{
+    background-color: #323b45;
+    color: #eeecec;
+}
+.slideImg{
+    height: 20vh;
+    object-fit: cover;
+    background-color: #323b45;
+}
+.probsStyle{
+    font-size: 70%;
+    border: 2px solid #0f1923;
+}
+.propsBorderRight{
+    text-decoration: none;
+    font-weight: bold;
+    color: #eeecec;
+    border-right: 2px solid #0f1923;
+    margin-right: 3px;
+}
+.propsBorderLeft{
+    text-decoration: none;
+    font-weight: bold;
+    color: #eeecec;
+    border-left: 2px solid #0f1923;
+    margin-left: 3px;
+}
+.propsBorderCenter{
+    text-decoration: none;
+    font-weight: bold;
+    color: #eeecec;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.probWinner{
+    color: #06da22;
+}
+.probTie{
+    color: #ffdf2a;
+}
+.probLoser{
+    color: #e41b00;
+}
+.cardStyle{
+    box-shadow: 0px 4px 8px rgba(119, 124, 168, 0.26);
+}

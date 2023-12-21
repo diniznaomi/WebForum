@@ -1,0 +1,28 @@
+.mainImg{
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.smallImg{
+    height: 10.2rem;
+    width: 100%;
+    object-fit: cover;
+}
+.myTable{
+    font-weight: bold;
+    box-shadow: #cc6f5a;
+    border-collapse: collapse;
+    width: 100%;
+}
+.myTable td,
+.myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    color: White;
+    background-color: #C5553C;
+}

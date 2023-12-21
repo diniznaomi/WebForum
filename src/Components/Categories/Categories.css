@@ -1,0 +1,19 @@
+.categoryIcon{
+    margin-left: 2%;
+}
+.gameStyle {
+    text-decoration: none;
+    margin-left: 5%;
+    color: #005dbb;
+    font-weight: bold;
+}
+.categoriesStyle{
+    background-color: #323b45;
+    padding-top: 0.5%
+}
+.categoryBlockOnStyle{
+    background-color: #0f1923;
+}
+.categoryBlockOffStyle{
+    background-color: #323b45;
+}
