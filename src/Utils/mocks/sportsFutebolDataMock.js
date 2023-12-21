@@ -165,7 +165,7 @@ export const sportsFutebolDataMock = [
 				date: "Dia 23 de dezembro de 2023",
 			},
 			{
-				id: "22",
+				id: "30",
 				title: "Chapecoense x Sport",
 				team1: "ACF",
 				team2: "SCR",
@@ -173,7 +173,7 @@ export const sportsFutebolDataMock = [
 				location: "Estádio Arena Condá, Chapecó",
 				championship: "Campeonato Brasileiro Série B",
 				probabilities: {
-					team1: "55%",
+					team1: "55%"/,
 					team2: "35%",
 					tie: "10%",
 				},
