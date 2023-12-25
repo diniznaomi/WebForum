@@ -8,12 +8,12 @@ export const Navbar = () => {
 				<span className="navbar-brand">
 					<img
 						src={logo}
-						width="45"
+						width="75"
 						height="44"
-						alt="logo"
+						alt="dados-logo"
 					/>
-					<span className="mt-4 titleStyle">
-						<b>iBet Probability</b>
+					<span className="m-3 titleStyle">
+						Descubra qual é a probabilidade de vitória do seu time
 					</span>
 				</span>
 				<button
