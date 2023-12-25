@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { Navbar } from "../NavBar/Navbar";
+import { Navbar } from "../Navbar/Navbar";
 import "./CardPage.css";
 import OpenAI from "openai";
 import { useCallback, useState } from "react";
