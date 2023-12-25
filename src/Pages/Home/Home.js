@@ -1,6 +1,6 @@
-import { Cards } from "../../Components/Cards/Cards";
+import { CardsContainer } from "../../Components/Cards/CardsContainer";
 import { Categories } from "../../Components/Categories/Categories";
-import { Navbar } from "../../Components/NavBar/Navbar";
+import { Navbar } from "../../Components/Navbar/Navbar";
 import "./Home.css";
 
 export const Home = () => {
@@ -15,7 +15,7 @@ export const Home = () => {
 				</div>
 
 				<div className="cardsContentStyle">
-					<Cards />
+					<CardsContainer />
 				</div>
 			</body>
 		</>
