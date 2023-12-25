@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import "./Cards.css";
 import { sportsFutebolDataMock } from "../../Utils/mocks/sportsFutebolDataMock";
+import {sportsBasqueteDataMock} from '../../Utils/mocks/sportsBasqueteDataMock';
+import { useSelector } from "react-redux";
 
 export const Cards = () => {
+	const selectedCategory = useSelector((state) => state.categories.selectedCategory);
+	const data = selectedCategory === 'soccer'? sportsFutebolDataMock : sportsBasqueteDataMock;
+	
 	return (
 		<div className="container p-0">
 			<div className="row cardContainer ">
-				{sportsFutebolDataMock.map((c, key) => {
+				{data.map((c, key) => {
 					return (
 						<div className="col-12 p-0" key={key}>
 							<div key={key}>
