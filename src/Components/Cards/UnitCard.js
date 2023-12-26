@@ -6,7 +6,7 @@ export const UnitCard = (data, key) => {
     return(
 			<div>
 				<div
-				class="card border-0 mt-3 p-0 cardStyle"
+				class="card border-0 mb-3 p-0 cardStyle"
 				style={{ width: "100%" }}
 				>
                     <Link

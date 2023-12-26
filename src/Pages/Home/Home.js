@@ -6,16 +6,16 @@ import "./Home.css";
 export const Home = () => {
 	return (
 		<>
-			<header>
-				<Navbar />
+			<header className="headerContainer">
+				<div className="fixed-top">
+					<Navbar />
+					<div className="categoriesContentStyle ">
+						<Categories />
+					</div>
+				</div>
 			</header>
 			<body>
-				<div className="categoriesContentStyle">
-					<Categories />
-				</div>
-
-				<div className="cardsContentStyle">
-					
+				<div className="cardsContentStyle">				
 					<CardsContainer />
 				</div>
 			</body>
