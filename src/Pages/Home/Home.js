@@ -15,6 +15,7 @@ export const Home = () => {
 				</div>
 
 				<div className="cardsContentStyle">
+					
 					<CardsContainer />
 				</div>
 			</body>

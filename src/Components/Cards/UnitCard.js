@@ -7,7 +7,7 @@ export const UnitCard = (data, key) => {
 			<div>
 				<div
 				class="card border-0 mt-3 p-0 cardStyle"
-				style={{ width: "90%" }}
+				style={{ width: "100%" }}
 				>
                     <Link
                         to={`/cardPage/${data.game?.id}`}
