@@ -10,8 +10,8 @@ export const CardsContainer = () => {
   const data = selectedCategory === 'soccer' ? sportsFutebolDataMock : sportsBasqueteDataMock;
 
   return (
-    <div className="container-fluid p-0 m-0 w-100">
-      <div className="row cardContainer m-0 w-100">
+    <div className="container-fluid p-0 m-0 full-height">
+      <div className="row cardContainer m-0 ">
         <Sidebar/>
           <div className="col-6">
             {data.map((c, key) => (
