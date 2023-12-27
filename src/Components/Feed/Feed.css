@@ -1,0 +1,16 @@
+.contentContainer{
+    background-color: #303b47;
+    height: 400px;
+}
+.feedTopicsStyle{
+    background-color: #0f1923;   
+}
+.feedTopicOnStyle{
+    background-color: #323b45
+}
+.feedTopicOffStyle{
+    background-color: #0f1923;
+}
+.topicsStyle{
+    color: #eeecec;
+}

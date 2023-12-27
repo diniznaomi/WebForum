@@ -1,0 +1,21 @@
+.contentContainer{
+    background-color: #303b47;
+    height: 400px;
+}
+.categoriesContentStyle{
+    background-color: #303b47;
+    
+}
+.feedTopicsStyle{
+    background-color: #0f1923;
+    
+}
+.categoryBlockOnStyle{
+    background-color: #323b45
+}
+.categoryBlockOffStyle{
+    background-color: #0f1923;
+}
+.topicsStyle{
+    color: #eeecec;
+}
