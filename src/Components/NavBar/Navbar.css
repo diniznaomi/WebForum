@@ -6,27 +6,4 @@
     color: #005dbb;
     font-weight: bold;
 }
-.searchButton{
-    background-color: #008CFF;
-}
-.searchButton:hover{
-    background-color: #323b45;
-}
-.settingsButton{
-    outline: none;
-    border: 0 none;
-}
-.settingsButton:active,
-.settingsButton:focus{
-    outline: none;
-    border: 0 none;
-}
-.searchField,
-.searchField:active,
-.searchField:focus{
-    outline: none;
-    border: 0 none;
-}
-.searchContainer{
-    width: 50%;
-}
+

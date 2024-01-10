@@ -5,4 +5,9 @@
 }
 .categoriesContentStyle{
     background-color: #323b45;
+    
+}
+.headerContainer{
+    height: 25vh;
+    background-color: #0f1923;
 }
