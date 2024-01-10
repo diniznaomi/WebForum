@@ -3,3 +3,34 @@
     box-shadow: 0px 4px 8px rgba(39, 42, 65, 0.26);
     color: #eeecec;
 }
+.postBoxStyle{
+    background-color: #1b2936;
+}
+.userPhotoStyle{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.userNameStyle{
+    font-size: 90%;
+}
+.commentStyle{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.postButtonsStyle{
+    height: 10%;
+    background-color: #1b2936;
+    margin-left: 1%;
+}
+.createNewPostStyle{
+    margin: 0rem 1rem 0rem 1rem;
+}
+.textPlaceHolderStyle{
+    background-color: #eeecec;
+    border: none !important;
+    outline: none;
+}
+.dataStyle {
+    margin-left: auto;
+    font-size: 90%;
+  }

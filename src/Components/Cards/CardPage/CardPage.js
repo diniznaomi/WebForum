@@ -1,10 +1,11 @@
-import { Navbar } from "../../Navbar/Navbar";
+
 import "./CardPage.css";
 import { Sidebar } from "../../Sidebar/sidebar";
 import { Categories } from "../../Categories/Categories";
 import { useLocation } from "react-router-dom";
 import { CarouselItem } from "../../Carousel/CarouselItem";
 import { Feed } from "../../Feed/Feed";
+import { Navbar } from "../../Navbar/Navbar";
 
 export const CardPage = () => {
   const location = useLocation();

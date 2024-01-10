@@ -8,7 +8,6 @@ export const Navbar = () => {
         <span className="navbar-brand">
           <img src={logo} width="75" height="44" alt="dados-logo" />
           <span className="m-3 titleStyle">
-            Descubra qual é a probabilidade de vitória do seu time
           </span>
         </span>
       </div>

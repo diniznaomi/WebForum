@@ -23,13 +23,6 @@ export const Feed = () => {
               <span class="nav-link d-flex border-0 topicsStyle">Trending</span>
             </button>
           </li>
-          <li className="nav-item">
-            <button className={`feedTopicOffStyle border-0`}>
-              <span class="nav-link d-flex border-0 topicsStyle">
-                Popular esta semana
-              </span>
-            </button>
-          </li>
         </ul>
       </div>
       <div>
